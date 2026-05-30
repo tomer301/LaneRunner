@@ -1,0 +1,37 @@
+# Android Studio & IntelliJ IDEA
+*.iml
+.gradle/
+.gradle
+.idea/
+.idea_modules/
+workspace.xml
+
+# Local configuration files
+local.properties
+*.jks
+*.keystore
+*.iws
+
+# Build Outputs (APK, AAB, generated files)
+build/
+app/build/
+*/build/
+captures/
+*.apk
+*.aab
+
+# Native/C++ build files
+.externalNativeBuild/
+.cxx/
+
+# OS Specific files (Mac / Windows garbage)
+.DS_Store
+Thumbs.db
+
+# Android Lint and Google Services
+lint/
+google-services.json
+secrets.properties
+
+# Log files
+*.log

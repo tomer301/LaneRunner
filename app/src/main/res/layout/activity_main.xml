@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lane_color" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lane_color" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lane_color" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/default_heart_margin">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart0"
+            android:layout_width="@dimen/heart_dimen"
+            android:layout_height="@dimen/heart_dimen"
+            android:layout_marginHorizontal="@dimen/default_heart_margin"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_avsoluteX="1dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_width="@dimen/heart_dimen"
+            android:layout_height="@dimen/heart_dimen"
+            android:layout_marginHorizontal="@dimen/default_heart_margin"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_avsoluteX="144dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_heart2"
+        android:layout_width="@dimen/heart_dimen"
+        android:layout_height="@dimen/heart_dimen"
+        android:layout_marginHorizontal="@dimen/default_heart_margin"
+        app:srcCompat="@drawable/heart"
+        tools:layout_editor_avsoluteX="82dp"
+        tools:layout_editor_avsoluteY="16dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="@dimen/bus_margin"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_0_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_0_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_0_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_1_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_1_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_1_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_2_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_2_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_2_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_3_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_3_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_3_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_4_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_4_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/bus_stop_4_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/bus_stop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:layout_marginBottom="@dimen/bus_margin">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bus_left"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_bus_size"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/bus_icon" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bus_center"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_bus_size"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:src="@drawable/bus_icon" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bus_right"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_bus_size"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/bus_icon" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/main_BTN_leftArrow"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginStart="@dimen/default_BTN_margin"
+        android:layout_marginBottom="@dimen/default_BTN_margin"
+        app:srcCompat="@drawable/left_arrow" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/main_BTN_rightArrow"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginEnd="@dimen/default_BTN_margin"
+        android:layout_marginBottom="@dimen/default_BTN_margin"
+        app:srcCompat="@drawable/right_arrow" />
+
+</RelativeLayout>

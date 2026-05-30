@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_heart_margin">3dp</dimen>
+    <dimen name="heart_dimen">40dp</dimen>
+    <dimen name="arrow_margin">32dp</dimen>
+    <dimen name="default_BTN_margin">32dp</dimen>
+    <dimen name="default_bus_size">60dp</dimen>
+    <dimen name="bus_margin">110dp</dimen>
+    <dimen name="default_bus_stop_height">80dp</dimen>
+</resources>
